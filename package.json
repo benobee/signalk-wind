@@ -1,0 +1,17 @@
+{
+  "name": "signalk-wind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@serialport/parser-readline": "^8.0.6",
+    "johnny-five": "^1.4.0",
+    "serialport": "^8.0.7"
+  },
+  "scripts": {
+    "server": "node ./index.js"
+  },
+  "keywords": [
+    "signalk-node-server-plugin"
+  ]
+}
